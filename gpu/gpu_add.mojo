@@ -26,6 +26,7 @@ def vector_add(
 
 
 def main() raises:
+    # comptime check if there is a compatible GPU
     comptime if not has_accelerator():
         print("No compatible GPU found")
     else:

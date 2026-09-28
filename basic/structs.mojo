@@ -2,10 +2,6 @@ trait Printable(Writable):
     def print(self):
         print(self)
 
-enum Gender(Copyable, Writable):
-    case Male
-    case Female
-    case Other
 
 struct Person(Copyable, Writable):
     var name: String
