@@ -46,9 +46,11 @@ def ref_usage():
 
 
 def collections():
+    var array: Array[Float64, 2] = [1.0, 2.0]
     var list: List[Float64] = [1.0, 2.0]
     var set: Set[Float64] = {1.0, 2.0}
     var map: Dict[String, Float64] = {"a": 1.0, "b": 2.0}
+    var tuple: Tuple[Float64, Float64] = (1.0, 2.0)
     var option: Optional[Float64] = Optional(1.0)
 
     if option:
@@ -56,10 +58,7 @@ def collections():
     else:
         print("Option is none")
 
-    print(list)
-    print(set)
-    print(map)
-    print(option)
+    print(array, list, set, map, tuple, option)
 
 
 def main() raises:
