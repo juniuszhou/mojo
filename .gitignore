@@ -5,3 +5,5 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+python/sample_module.so
