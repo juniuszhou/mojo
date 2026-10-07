@@ -7,3 +7,4 @@
 !.pixi/config.toml
 
 python/sample_module.so
+python/__mojocache__/
